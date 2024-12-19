@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.CarsManagement.TC004_AddColor">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_CarManagement_AddColor"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.CarsManagement.TC004_AddColor -->
+      <class name="testCases.More.TC002_SurveyQuestion">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_More_SurveyQuestions"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.More.TC002_SurveyQuestion -->
+      <class name="testCases.ContentManagement.TC003_FAQs">
+        <methods>
+          <include name="verify_ContentManagement_FAQs"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.ContentManagement.TC003_FAQs -->
+      <class name="testCases.CarsManagement.TC005_AddOwnership">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_CarManagement_AddOwnership"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.CarsManagement.TC005_AddOwnership -->
+      <class name="testCases.UserManagement.TC001_User">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_UserManagement_User"/>
+        </methods>
+      </class> <!-- testCases.UserManagement.TC001_User -->
+      <class name="testCases.CarsManagement.TC002_AddVarient">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_CarManagement_AddVarient"/>
+        </methods>
+      </class> <!-- testCases.CarsManagement.TC002_AddVarient -->
+      <class name="testCases.More.TC001_Subscription">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_More_Subscription"/>
+        </methods>
+      </class> <!-- testCases.More.TC001_Subscription -->
+      <class name="testCases.More.TC003_Ticket">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_More_SurveyQuestions"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.More.TC003_Ticket -->
+      <class name="testCases.ContentManagement.TC007_BlogCategories">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_ContentManagement_BlogtCategories"/>
+        </methods>
+      </class> <!-- testCases.ContentManagement.TC007_BlogCategories -->
+      <class name="testCases.CarsManagement.TC016_AddFuel">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_CarManagement_AddTransmision"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.CarsManagement.TC016_AddFuel -->
+      <class name="testCases.CarsManagement.TC003_AddBodyType">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_CarManagement_AddBodyType"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.CarsManagement.TC003_AddBodyType -->
+      <class name="testCases.ContentManagement.TC004_Offers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_ContentManagement_Offers"/>
+        </methods>
+      </class> <!-- testCases.ContentManagement.TC004_Offers -->
+      <class name="testCases.More.TC004_PushNotification">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_More_PushNotification"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.More.TC004_PushNotification -->
+      <class name="testCases.ContentManagement.TC006_TicketCategories">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_ContentManagement_TicketCategories"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.ContentManagement.TC006_TicketCategories -->
+      <class name="testCases.CarsManagement.TC006_AddLocation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_CarManagement_AddLocation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.CarsManagement.TC006_AddLocation -->
+      <class name="testCases.ContentManagement.TC005_Services">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_ContentManagement_Services"/>
+        </methods>
+      </class> <!-- testCases.ContentManagement.TC005_Services -->
+      <class name="testCases.ContentManagement.TC002_InspectionQuestions">
+        <methods>
+          <include name="verify_ContentManagement_InspectionQuestions"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.ContentManagement.TC002_InspectionQuestions -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MasterSuite">
+
+<listeners>
+       <listener class-name="utilities.ExtentReportManager" />
+</listeners>
+
+  <test thread-count="5" name="Test">
+  
+  <parameter name="os" value="windows"/>
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.Admin.CarsManagement.TC001_AddModel"/>
+      <class name="testCases.Admin.CarsManagement.TC002_AddVarient"/>
+      <class name="testCases.Admin.CarsManagement.TC013_AddTransmission"/>
+      <class name="testCases.Admin.CarsManagement.TC016_AddFuel"/>
+      <class name="testCases.Admin.CarsManagement.TC003_AddBodyType"/>
+      <class name="testCases.Admin.CarsManagement.TC004_AddColor"/>
+      <class name="testCases.Admin.CarsManagement.TC005_AddOwnership"/>
+      <class name="testCases.Admin.CarsManagement.TC006_AddLocation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
