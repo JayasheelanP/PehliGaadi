@@ -30,19 +30,26 @@ public class TC001_SellCarWithQc extends BaseClass {
 					Thread.sleep(5000);
 					lp.clickSellMyCar();
 					Thread.sleep(5000);
-					lp.EnterCarNumber("KA24YZ7090");
+					lp.EnterCarNumber();
 					Thread.sleep(5000);
 					lp.clickSellCarButton();
 					Thread.sleep(5000);
 					lp.clickWithQC();
 					Thread.sleep(5000);
-//					lp.clickBrand();
-//					lp.clickPeriod();
-//					lp.clickModel();
-//					lp.clickVariant();
-//					lp.clickFuel();
-//		        	lp.clickTransmission();
+					lp.clickBrand();
+					Thread.sleep(5000);
+					lp.clickPeriod();
+					Thread.sleep(5000);
+					lp.clickModel();
+					Thread.sleep(5000);
+					lp.clickVariant();
+					Thread.sleep(3000);
+					lp.clickFuel();
+					Thread.sleep(3000);
+		        	lp.clickTransmission();
+		        	Thread.sleep(3000);
 					lp.clickOwnership();
+					Thread.sleep(3000);
 					lp.clickOdometer();
 					Thread.sleep(5000);
 					lp.clickLocation();
@@ -60,8 +67,7 @@ public class TC001_SellCarWithQc extends BaseClass {
 		     		lp.ClkMapLocation();
 		     		Thread.sleep(5000);
 		     		lp.ClkBook();
-		     		Thread.sleep(5000);
-		     				
+		     		Thread.sleep(5000);	
 		}
 				
 	}

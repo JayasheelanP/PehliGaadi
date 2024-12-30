@@ -12,7 +12,7 @@ public class TC002_SurveyQuestion extends BaseClass {
 	{
 		SurveyQuestionPage sq = new SurveyQuestionPage(driver);
 		
-		//Add
+	    //Add
 		sq.ClickonMore();
 		Thread.sleep(3000);
 		sq.SelectCategories();

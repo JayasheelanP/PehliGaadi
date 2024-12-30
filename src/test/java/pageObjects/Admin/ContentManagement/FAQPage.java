@@ -14,10 +14,10 @@ public class FAQPage extends BasePage {
 		super(driver);
 	}
 	
-	@FindBy(xpath = "//div[@class='MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-gxg9xr-MuiPaper-root-MuiCard-root']//div[4]//div[1]//div[1]//button[1]//*[name()='svg']")
+	@FindBy(xpath = "//div[@class='MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-l3s2qg']//div[4]//div[1]//div[1]//button[1]//*[name()='svg']")
 	WebElement ContentManagementdd;
 	
-	@FindBy(xpath = "/html/body/div[1]/div/main/div[2]/div[1]/div/div/div/div[4]/div/div[2]/div/div/div/div[4]/div/span")
+	@FindBy(xpath = "//*[@id=\"root\"]/div/main/div[2]/div[1]/div/div/div/div[4]/div/div[2]/div/div/div/li[4]/div/span")
 	WebElement SelectFAQs;
 	
 	@FindBy(xpath ="//button[normalize-space()='Add FAQ']")

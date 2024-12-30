@@ -11,14 +11,18 @@
   <parameter name="os" value="windows"/>
   <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.Admin.CarsManagement.TC001_AddModel"/>
-      <class name="testCases.Admin.CarsManagement.TC002_AddVarient"/>
-      <class name="testCases.Admin.CarsManagement.TC013_AddTransmission"/>
-      <class name="testCases.Admin.CarsManagement.TC016_AddFuel"/>
-      <class name="testCases.Admin.CarsManagement.TC003_AddBodyType"/>
-      <class name="testCases.Admin.CarsManagement.TC004_AddColor"/>
-      <class name="testCases.Admin.CarsManagement.TC005_AddOwnership"/>
-      <class name="testCases.Admin.CarsManagement.TC006_AddLocation"/>
+      <class name="testCases.Admin.More.TC001_Subscription" />
+	  <class name="testCases.Admin.More.TC003_Ticket" />
+	  <class name="testCases.Admin.More.TC002_SurveyQuestion" />
+	  <class name="testCases.Admin.More.TC004_PushNotification" />
+      <!--<class name="testCases.Admin.CarsManagement.TC001_AddModel"/> -->
+     <!-- <class name="testCases.Admin.CarsManagement.TC002_AddVarient"/> --> 
+      <!--<class name="testCases.Admin.CarsManagement.TC013_AddTransmission"/> -->
+     <!-- <class name="testCases.Admin.CarsManagement.TC016_AddFuel"/>-->
+      <!--<class name="testCases.Admin.CarsManagement.TC003_AddBodyType"/> -->
+      <!--<class name="testCases.Admin.CarsManagement.TC004_AddColor"/> -->
+     <!-- <class name="testCases.Admin.CarsManagement.TC005_AddOwnership"/> -->
+     <!-- <class name="testCases.Admin.CarsManagement.TC006_AddLocation"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

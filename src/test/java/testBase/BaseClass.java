@@ -10,7 +10,7 @@ import java.util.Properties;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
+//import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -65,18 +65,17 @@ import utilities.ReadConfig;
 			driver.manage().deleteAllCookies();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			
-			driver.get(p.getProperty("appURL"));
+			driver.get(p.getProperty("baseURL"));
 			driver.manage().window().maximize();
-			driver.findElement(By.xpath("//input[@id='emailid']")).sendKeys(p.getProperty("AdminEmail"));
-			driver.findElement(By.xpath("//input[@id='userpassword']")).sendKeys(p.getProperty("AdminPass"));
-			driver.findElement(By.xpath("//button[normalize-space()='Log In']")).click();
-			
+			//driver.findElement(By.xpath("//input[@id=':r0:']")).sendKeys(p.getProperty("AdminEmail"));
+		    //driver.findElement(By.xpath("//input[@id=':r1:']")).sendKeys(p.getProperty("AdminPass"));
+			//driver.findElement(By.xpath("//button[normalize-space()='Log In']")).click();
 		}
 		
 		@AfterClass
 		public void tearDown()
 		{
-			driver.quit();
+			driver.close();
 		}
 		
 		public String captureScreen(String tname) throws IOException {

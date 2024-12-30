@@ -16,7 +16,7 @@ public class PushNotificationPage extends BasePage {
 		super(driver);
 	}
 	
-	@FindBy(xpath = "//div[@class='MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root']//button[@type='button']//*[name()='svg']")
+	@FindBy(xpath = "//div[@class='MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-o0rlmm']//button[@type='button']//*[name()='svg']")
     WebElement More;
 
     @FindBy(xpath = "//*[@id=\"root\"]/div/main/div[2]/div[1]/div/div/div/div[5]/div/div[2]/div/div/div/div[5]/div/span")

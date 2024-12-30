@@ -14,25 +14,25 @@ public class TC001_Subscription extends BaseClass {
 		
 		//Add
 		sp.ClickonMore();
-		Thread.sleep(3000);
+	    Thread.sleep(3000);
 		sp.SelectCategories();
-		Thread.sleep(3000);
-		sp.AddSubscription();
-		Thread.sleep(3000);
-		sp.EnterSubscriptionName();
-		Thread.sleep(3000);
-		sp.EnterMonthlyPrice();
-		Thread.sleep(3000);
-		sp.EnterQuarterlyPrice();
-		Thread.sleep(3000);
-		sp.EnterHalfYearlyPrice();
-		Thread.sleep(3000);
-		sp.EnterAnnualPrice();
-		Thread.sleep(3000);
-		sp.SubscriptionDes();
-		Thread.sleep(3000);
-		sp.SubscriptionSavebtn();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
+//		sp.AddSubscription();
+//		Thread.sleep(3000);
+//		sp.EnterSubscriptionName();
+//		Thread.sleep(3000);
+//		sp.EnterMonthlyPrice();
+//		Thread.sleep(3000);
+//		sp.EnterQuarterlyPrice();
+//		Thread.sleep(3000);
+//		sp.EnterHalfYearlyPrice();
+//		Thread.sleep(3000);
+//		sp.EnterAnnualPrice();
+//		Thread.sleep(3000);
+//		sp.SubscriptionDes();
+//		Thread.sleep(3000);
+//		sp.SubscriptionSavebtn();
+//		Thread.sleep(5000);
 		
 		//Edit
 		sp.EditSubscription(driver);

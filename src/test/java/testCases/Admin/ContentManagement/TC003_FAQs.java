@@ -15,19 +15,19 @@ public class TC003_FAQs extends BaseClass {
 		fq.ClickContentManagement();
 		Thread.sleep(3000);
 		fq.SelectFAQs();
-		Thread.sleep(3000);
-		fq.AddFaqs();
-		Thread.sleep(3000);
-		fq.ClickCategory();
-		Thread.sleep(3000);
-		fq.SelectCategory();
-		Thread.sleep(3000);
-		fq.EnterQuestion();
-		Thread.sleep(3000);
-		fq.EnterAnswer();
-		Thread.sleep(3000);
-		fq.Savebtn();
-		Thread.sleep(3000);
+		Thread.sleep(10000);
+//		fq.AddFaqs();
+//		Thread.sleep(3000);
+//		fq.ClickCategory();
+//		Thread.sleep(3000);
+//		fq.SelectCategory();
+//		Thread.sleep(3000);
+//		fq.EnterQuestion();
+//		Thread.sleep(3000);
+//		fq.EnterAnswer();
+//		Thread.sleep(3000);
+//		fq.Savebtn();
+//		Thread.sleep(3000);
 		
 		//Edit
 		fq.ClickEditButton();

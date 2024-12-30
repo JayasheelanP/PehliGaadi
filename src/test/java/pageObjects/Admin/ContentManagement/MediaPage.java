@@ -13,7 +13,7 @@ public class MediaPage extends BasePage {
 		super(driver);
 	}
 
-	@FindBy(xpath = "//div[@class='MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-gxg9xr-MuiPaper-root-MuiCard-root']//div[4]//div[1]//div[1]//button[1]//*[name()='svg']")
+	@FindBy(xpath = "//div[@class='MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-l3s2qg']//div[4]//div[1]//div[1]//button[1]//*[name()='svg']")
 	WebElement ContentManagementdd;
 
 	@FindBy(xpath = "//span[normalize-space()='Media']")

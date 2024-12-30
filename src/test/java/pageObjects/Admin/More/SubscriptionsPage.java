@@ -5,7 +5,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 import pageObjects.Admin.CarsManagement.BasePage;
 
 public class SubscriptionsPage extends BasePage {
@@ -14,7 +13,7 @@ public class SubscriptionsPage extends BasePage {
 		super(driver);
 	}
 	
-	@FindBy(xpath = "//div[@class='MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root']//button[@type='button']//*[name()='svg']")
+	@FindBy(xpath = "//div[@class='MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-o0rlmm']//button[@type='button']//*[name()='svg']")
 	WebElement Moredd;
 	
 	@FindBy(xpath = "//span[normalize-space()='Subscriptions']")
@@ -44,7 +43,7 @@ public class SubscriptionsPage extends BasePage {
 	@FindBy(xpath ="/html/body/div[4]/div[3]/div/div[2]/button[2]")
 	WebElement savesubscriptionbtn;
 	
-	@FindBy(xpath="/html/body/div[1]/div/main/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div[2]/div/div[5]/div[12]/div/button[1]")
+	@FindBy(xpath="/html/body/div[1]/div/main/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div[2]/div/div[1]/div[13]/div/button[1]")
 	WebElement SubscriptionEdit;
 	
 	@FindBy(xpath="/html/body/div[5]/div[3]/div/div[1]/div/div[2]/div/div/button[2]")
@@ -125,16 +124,18 @@ public class SubscriptionsPage extends BasePage {
 		subscriptionDes.sendKeys("By availing the subscription you will two car wash free monthly ");
 	}
 	
-	public void SubscriptionSavebtn()
+	public void SubscriptionSavebtn() throws InterruptedException
 	{
 		savesubscriptionbtn.click();
+		Thread.sleep(5000);
 	}
 	
 	public void EditSubscription(WebDriver driver)
-	{
-		JavascriptExecutor js = (JavascriptExecutor)driver;
-		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
-		((JavascriptExecutor) driver).executeScript("arguments[0].scrollLeft += 400;", scrollableContainer);
+	{   
+		//JavascriptExecutor js = (JavascriptExecutor)driver;
+		//js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+		//((JavascriptExecutor) driver).executeScript("arguments[0].scrollLeft += 400;", scrollableContainer);
+		//js.executeScript("window.scrollTo(document.body.scrollWidth, 0);");
 		SubscriptionEdit.click();
 	}
 	

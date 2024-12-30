@@ -18,7 +18,7 @@ public class TicketsPage extends BasePage {
 		super(driver);
 	}
 	
-	@FindBy(xpath = "//div[@class='MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root']//button[@type='button']//*[name()='svg']")
+	@FindBy(xpath = "//div[@class='MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-o0rlmm']//button[@type='button']//*[name()='svg']")
     WebElement More;
 
     @FindBy(xpath = "//span[normalize-space()='Tickets']")
